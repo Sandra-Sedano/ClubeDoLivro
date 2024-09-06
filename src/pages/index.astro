@@ -2,6 +2,12 @@
 import Layout from "../layouts/Layout.astro";
 import Cabecalho from "../components/Cabecalho.astro";
 import Secoes from "../components/Secoes.astro";
+import ContinuacaoSecoes from "../components/ContinuacaoSecoes.astro";
+import BaseProjeto from "../components/BaseProjeto.astro";
+import FimBaseProjeto from "../components/FimBaseProjeto.astro";
+import Rodape from "../components/Rodape.astro"
+import Projeto from "../components/Projeto.astro";
+
 ---
 
 <Layout title="Welcome to Astro.">
@@ -10,6 +16,11 @@ import Secoes from "../components/Secoes.astro";
       <div class="container-1">
         <Cabecalho />
         <Secoes />
+        <ContinuacaoSecoes/>
+        <Projeto />
+        <BaseProjeto/>
+        <FimBaseProjeto />
+        <Rodape/> 
        
       </div>
     </div>
